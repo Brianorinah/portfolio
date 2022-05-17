@@ -7,12 +7,13 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">JAN 2018 -</div>
-                <div class="caption font-weight-bold green--text">PRESENT</div>
+                <div class="caption font-weight-bold green--text">SEP 2013 -</div>
+                <div class="caption font-weight-bold green--text">JUN 2019</div>
               </v-flex>
               <v-flex class="pl-2">
-                <strong>Full Stack Web Development Course</strong>
-                <div class="caption mb-2">freeCodeCamp</div>
+                <strong>Egerton University , </strong>
+                <div class="caption mb-2">Bsc. Computer Science </div>
+                <div class="caption mb-2">Second Class Upper Division</div>
               </v-flex>
             </v-layout>
           </v-timeline-item>
@@ -20,28 +21,17 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">SEP 2007 -</div>
-                <div class="caption font-weight-bold green--text">MAY 2014</div>
+                <div class="caption font-weight-bold green--text">FEB 2010 -</div>
+                <div class="caption font-weight-bold green--text">NOV 2013</div>
               </v-flex>
               <v-flex class="pl-2">
-                <strong>Telecommunications Engineering</strong>
-                <div class="caption mb-2">University of East Sarajevo</div>
+                <strong>High School</strong>
+                <div class="caption mb-2">Njiiri School</div>
+                <div class="caption mb-2">A-</div>
               </v-flex>
             </v-layout>
           </v-timeline-item>
-
-          <v-timeline-item color="green" small>
-            <v-layout pt-3>
-              <v-flex xs4>
-                <div class="caption font-weight-bold green--text">SEP 2003 -</div>
-                <div class="caption font-weight-bold green--text">MAY 2007</div>
-              </v-flex>
-              <v-flex class="pl-2">
-                <strong>Electrical Technician for Computers</strong>
-                <div class="caption mb-2">Electro-technical school Doboj</div>
-              </v-flex>
-            </v-layout>
-          </v-timeline-item>
+          
         </v-timeline>
       </v-card-text>
     </v-flex>
@@ -52,12 +42,13 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">DEC 2016 -</div>
+                <div class="caption font-weight-bold green--text">JAN 2022 -</div>
                 <div class="caption font-weight-bold green--text">PRESENT</div>
               </v-flex>
               <v-flex class="pl-2">
-                <strong>Freelance Frontend Developer</strong>
-                <div class="caption mb-2">Remote</div>
+                <strong>Damu Sasa System Limited</strong><br>
+                <strong>Software Developer</strong>
+                <div class="caption mb-2">Full Time</div>
               </v-flex>
             </v-layout>
           </v-timeline-item>
@@ -65,12 +56,13 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">FEB 2018 -</div>
-                <div class="caption font-weight-bold green--text">JULY 2018</div>
+                <div class="caption font-weight-bold green--text">FEB 2019 -</div>
+                <div class="caption font-weight-bold green--text">November 2021</div>
               </v-flex>
               <v-flex class="pl-2">
-                <strong>Teacher for electrical technicians</strong>
-                <div class="caption mb-2">High School Doboj Istok</div>
+                <strong>Avanet Technologies</strong><br>
+                <strong>Software Developer , Technical Support Engineer</strong>
+                <div class="caption mb-2">Full Time</div>
               </v-flex>
             </v-layout>
           </v-timeline-item>
@@ -78,12 +70,13 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">AUG 2014 -</div>
-                <div class="caption font-weight-bold green--text">APR 2016</div>
+                <div class="caption font-weight-bold green--text">MAY 2021 -</div>
+                <div class="caption font-weight-bold green--text">NOV 2021</div>
               </v-flex>
               <v-flex class="pl-2">
-                <strong>IT Technician</strong>
-                <div class="caption mb-2">MFS-EMMAUS</div>
+                <strong>Liorra Teaching Limited</strong><br>
+                <strong>Data Science Instructor</strong>
+                <div class="caption mb-2">Part Time</div>
               </v-flex>
             </v-layout>
           </v-timeline-item>
@@ -120,7 +113,7 @@
       </v-flex>
       <div class="mt-4 pt-2">
         <v-btn
-          href="https://docs.google.com/document/d/1WSR42FEgUahJuR_RArW1wz7TfUBlgj13zekRidmQgs4/edit?usp=sharing"
+          href="https://docs.google.com/document/d/1fM2PfYGAnrtOc466utOMgrEUKf1dbFwCUOjyqGOF9lM/edit?usp=sharing"
           target="_blank"
           color="green"
           dark
@@ -186,12 +179,12 @@ export default {
   methods: {
     startBuffer() {
       this.interval = setInterval(() => {
-        this.buffer1 = 90;
-        this.buffer2 = 85;
-        this.buffer3 = 80;
-        this.buffer4 = 80;
-        this.buffer5 = 90;
-        this.buffer6 = 70;
+        this.buffer1 = 100;
+        this.buffer2 = 100;
+        this.buffer3 = 100;
+        this.buffer4 = 100;
+        this.buffer5 = 100;
+        this.buffer6 = 100;
       }, 800);
     }
   }

@@ -23,7 +23,7 @@
 
     <br>
 
-    <vue-typer class="headline" :repeat="0" text="Eldin Zaimovic"></vue-typer>
+    <vue-typer class="headline" :repeat="0" text="Brian Orina"></vue-typer>
     <vue-typer
       :text="text1"
       :repeat="Infinity"
@@ -48,13 +48,13 @@
             </h3>
             <div>
               <p>
-                Hello! I’m Eldin Zaimovic. I'm a front-end developer who
+                Hello! I’m Brian Orina. I'm a software engeneer who
                 is passionate about
                 <span
                   class="green--text font-weight-bold"
-                >VUE</span>, building great user experiences,
+                >Data Driven Technologies</span>, building great user experiences,
                 fighting for simplicity over complexity and constantly learning.
-                When I'm not coding or making videos, you'll find me traveling across Europe.
+                When I'm not coding or making videos, you'll find me watching football.
               </p>
             </div>
           </div>
@@ -102,12 +102,12 @@ import VueCompareImage from "vue-compare-image";
 export default {
   metaInfo: {
     title: "Home",
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Orinas's Space",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "description", content: "Eldin Zaimovic's Portfolio" },
+      { name: "description", content: "Brian Orinas's Portfolio" },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
+      { property: "og:title", content: "Orinas' Space" },
       { property: "og:site_name", content: "Eldin' Space" },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://eldin.space" },
@@ -127,27 +127,18 @@ export default {
       icons: [
         { href: "https://github.com/EldinZaimovic", icon: "fab fa-github" },
         {
-          href: "https://stackoverflow.com/users/story/9660700",
+          href: "https://stackoverflow.com/users/11765163/brian-the-guru",
           icon: "fab fa-stack-overflow"
-        },
-        { href: "https://twitter.com/EldinMatricar", icon: "fab fa-twitter" },
+        },        
         {
-          href: "https://www.linkedin.com/in/eldin-zaimovic",
+          href: "https://www.linkedin.com/in/brian-orina-666b0416b/",
           icon: "fab fa-linkedin-in"
         },
-        {
-          href: "https://www.xing.com/profile/Eldin_Zaimovic?sc_o=mxb_p",
-          icon: "fab fa-xing"
-        },
-        {
-          href: "https://www.facebook.com/EldinVasVoli",
-          icon: "fab fa-facebook-f"
-        },
-        { href: "https://www.instagram.com/matricar", icon: "fab fa-instagram" }
+       
       ],
-      text1: ["Front-End Developer", "Web Developer", "Web Designer"],
-      leftImage: "https://i.imgur.com/bU50uS9.jpg",
-      rightImage: "https://i.imgur.com/z3ZoEEw.jpg",
+      text1: ["Full Stack web Developer", "Web Designer", "Data Science"],
+      leftImage: "https://i.postimg.cc/7h8bzLmL/brian.jpg",
+      rightImage: "https://i.postimg.cc/7h8bzLmL/orina.jpg",
       leftImage2: "https://i.imgur.com/SXBitjh.jpg",
       rightImage2: "https://i.imgur.com/Dcz2PGx.jpg",
       sliderLine: 0,

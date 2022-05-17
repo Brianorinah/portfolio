@@ -8,18 +8,18 @@
         </h2>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-map-marker-alt</v-icon>
-          <span>Doboj,&nbsp;</span>
-          <span class="green--text">Bosnia & Herzegovina</span>
+          <span>Nairobi,&nbsp;</span>
+          <span class="green--text">Kenya</span>
         </div>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-envelope</v-icon>
-          <span>eldin@</span>
-          <span class="green--text">zaimovic.com</span>
+          <span>brayohorina@</span>
+          <span class="green--text">gmail.com</span>
         </div>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-phone</v-icon>
-          <span>+387&nbsp;</span>
-          <span class="green--text">61 596 676</span>
+          <span>+254&nbsp;</span>
+          <span class="green--text">700 072 016</span>
         </div>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-check</v-icon>
@@ -34,7 +34,7 @@
           <span class="green--text">Form</span>
         </h2>
 
-        <form method="POST" action="https://formspree.io/eldin@zaimovic.com">
+        <form method="POST" action="https://formspree.io/f/xbjwqqnr">
           <v-text-field
             name="name"
             color="green"
