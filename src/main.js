@@ -16,7 +16,7 @@ new Vue({
 
 Vue.use(StoryblokVue)
 Vue.use(VueAnalytics, {
-  id: '',
+  id: 'G-46WKC4S606',
   router,
   debug: {
     enabled: !isProd,
