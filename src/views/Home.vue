@@ -103,20 +103,20 @@ export default {
   metaInfo: {
     title: "Home",
     titleTemplate: "%s ← Orinas's Space",
-    meta: [
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "description", content: "Brian Orinas's Portfolio" },
-      { charset: "utf-8" },
-      { property: "og:title", content: "Orinas' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
-      {
-        property: "og:image",
-        content: "https://i.imgur.com/Dcz2PGx.jpg"
-      },
-      { property: "og:description", content: "Eldin Zaimovic's Portfolio" }
-    ]
+    // meta: [
+    //   { name: "viewport", content: "width=device-width, initial-scale=1" },
+    //   { name: "description", content: "Brian Orinas's Portfolio" },
+    //   { charset: "utf-8" },
+    //   { property: "og:title", content: "Orinas' Space" },
+    //   { property: "og:site_name", content: "Eldin' Space" },
+    //   { property: "og:type", content: "website" },
+    //   { property: "og:url", content: "https://eldin.space" },
+    //   {
+    //     property: "og:image",
+    //     content: "https://i.imgur.com/Dcz2PGx.jpg"
+    //   },
+    //   { property: "og:description", content: "Eldin Zaimovic's Portfolio" }
+    // ]
   },
   components: {
     "vue-typer": VueTyper,
@@ -136,9 +136,9 @@ export default {
         },
        
       ],
-      text1: ["Full Stack web Developer", "Web Designer", "Data Science"],
-      leftImage: "https://i.postimg.cc/7h8bzLmL/brian.jpg",
-      rightImage: "https://i.postimg.cc/7h8bzLmL/orina.jpg",
+      text1: ["Full Stack web Developer", "Dev Ops", "Data Science"],
+      leftImage: "https://i.postimg.cc/VLChcHLg/test1.jpg",
+      rightImage: "https://i.postimg.cc/6pwxbNLn/test2.jpg",
       leftImage2: "https://i.imgur.com/SXBitjh.jpg",
       rightImage2: "https://i.imgur.com/Dcz2PGx.jpg",
       sliderLine: 0,

@@ -86,29 +86,26 @@
     <v-layout row justify-center align-center wrap class="mt-4 pt-2">
       <v-flex xs12 sm12 md4 lg5 xl5 class="mx-2 pt-4">
         <h2>
-          <span>Design</span>
+          <span>Technical</span>
 
           <span class="green--text">Skills</span>
         </h2>
         <br>
-        <strong>Photoshop</strong>
+        <strong>PHP</strong>
         <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
-        <strong>Adobe XD</strong>
+        <strong>JavaScript</strong>
         <v-progress-linear v-model="buffer2" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
-        <strong>Zeplin</strong>
+        <strong>Python</strong>
         <v-progress-linear v-model="buffer3" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
       </v-flex>
       <v-flex xs12 sm12 md4 lg5 xl5 class="mx-2 pt-4">
-        <h2>
-          <span>Coding</span>
-          <span class="green--text">Skills</span>
-        </h2>
+        <br> 
         <br>
-        <strong>VUE/NUXT</strong>
+        <strong>MYSQL</strong>
         <v-progress-linear v-model="buffer4" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
-        <strong>HTML/CSS</strong>
+        <strong>DJANGO</strong>
         <v-progress-linear v-model="buffer5" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
-        <strong>JavaScript</strong>
+        <strong>GOOGLE CLOUD PLATFORM</strong>
         <v-progress-linear v-model="buffer6" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
       </v-flex>
       <div class="mt-4 pt-2">
@@ -132,28 +129,28 @@ export default {
   metaInfo: {
     title: "Resume",
     titleTemplate: "%s ← Eldin's Space",
-    meta: [
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      {
-        name: "description",
-        content:
-          "Vue NUXT HTML CSS JavaScript Design Adobe XD Photoshop Coding Skills Resume Work Web Developer Front-End"
-      },
-      { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
-      {
-        property: "og:image",
-        content: "https://i.imgur.com/Dcz2PGx.jpg"
-      },
-      {
-        property: "og:description",
-        content:
-          "Vue NUXT HTML CSS JavaScript Design Adobe XD Photoshop Coding Skills Resume Work Web Developer Front-End"
-      }
-    ]
+    // meta: [
+    //   { name: "viewport", content: "width=device-width, initial-scale=1" },
+    //   {
+    //     name: "description",
+    //     content:
+    //       "Vue NUXT HTML CSS JavaScript Design Adobe XD Photoshop Coding Skills Resume Work Web Developer Front-End"
+    //   },
+    //   { charset: "utf-8" },
+    //   { property: "og:title", content: "Eldin' Space" },
+    //   { property: "og:site_name", content: "Eldin' Space" },
+    //   { property: "og:type", content: "website" },
+    //   { property: "og:url", content: "https://eldin.space" },
+    //   {
+    //     property: "og:image",
+    //     content: "https://i.imgur.com/Dcz2PGx.jpg"
+    //   },
+    //   {
+    //     property: "og:description",
+    //     content:
+    //       "Vue NUXT HTML CSS JavaScript Design Adobe XD Photoshop Coding Skills Resume Work Web Developer Front-End"
+    //   }
+    // ]
   },
   data() {
     return {
