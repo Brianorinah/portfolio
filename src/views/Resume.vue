@@ -42,8 +42,21 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">JAN 2022 -</div>
+                <div class="caption font-weight-bold green--text">JULY 2022 -</div>
                 <div class="caption font-weight-bold green--text">PRESENT</div>
+              </v-flex>
+              <v-flex class="pl-2">
+                <strong>Dynasoft Business Solutions</strong><br>
+                <strong>Software Developer</strong>
+                <div class="caption mb-2">Full Time</div>
+              </v-flex>
+            </v-layout>
+          </v-timeline-item>
+          <v-timeline-item color="green" small>
+            <v-layout pt-3>
+              <v-flex xs4>
+                <div class="caption font-weight-bold green--text">DECEMBER 2021 -</div>
+                <div class="caption font-weight-bold green--text">June 2022</div>
               </v-flex>
               <v-flex class="pl-2">
                 <strong>Damu Sasa System Limited</strong><br>
@@ -91,26 +104,30 @@
           <span class="green--text">Skills</span>
         </h2>
         <br>
-        <strong>PHP</strong>
+        <strong>.Net Fremework | .Net Core [C#]</strong>
+        <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
+        <strong>C/AL</strong>
         <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
         <strong>JavaScript</strong>
         <v-progress-linear v-model="buffer2" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
-        <strong>Python</strong>
+        <strong>Azure</strong>
         <v-progress-linear v-model="buffer3" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
       </v-flex>
       <v-flex xs12 sm12 md4 lg5 xl5 class="mx-2 pt-4">
         <br> 
         <br>
-        <strong>MYSQL</strong>
+        <strong>SQL</strong>
+        <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
+        <strong>AL</strong>
         <v-progress-linear v-model="buffer4" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
-        <strong>DJANGO</strong>
+        <strong>PHP</strong>
         <v-progress-linear v-model="buffer5" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
-        <strong>GOOGLE CLOUD PLATFORM</strong>
+        <strong>Docker & Kubernetes</strong>
         <v-progress-linear v-model="buffer6" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
       </v-flex>
       <div class="mt-4 pt-2">
         <v-btn
-          href="https://docs.google.com/document/d/1fM2PfYGAnrtOc466utOMgrEUKf1dbFwCUOjyqGOF9lM/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1mIo7mJ3acgKUDQUXOtM2ejJRziHFOKlT/view?usp=sharing"
           target="_blank"
           color="green"
           dark
@@ -128,7 +145,7 @@
 export default {
   metaInfo: {
     title: "Resume",
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Orina's Space",
     // meta: [
     //   { name: "viewport", content: "width=device-width, initial-scale=1" },
     //   {

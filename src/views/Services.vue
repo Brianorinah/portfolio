@@ -62,7 +62,7 @@
 export default {
   metaInfo: {
     title: "Services",
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Orina's Space",
     // meta: [
     //   { name: "viewport", content: "width=device-width, initial-scale=1" },
     //   {

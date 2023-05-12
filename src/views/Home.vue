@@ -54,7 +54,7 @@
                   class="green--text font-weight-bold"
                 >Data Driven Technologies</span>, building great user experiences,
                 fighting for simplicity over complexity and constantly learning.
-                When I'm not coding or making videos, you'll find me watching football.
+                When I'm not coding, you'll find me watching football.
               </p>
             </div>
           </div>
@@ -125,7 +125,7 @@ export default {
   data() {
     return {
       icons: [
-        { href: "https://github.com/EldinZaimovic", icon: "fab fa-github" },
+        { href: "https://github.com/Brianorinah", icon: "fab fa-github" },
         {
           href: "https://stackoverflow.com/users/11765163/brian-the-guru",
           icon: "fab fa-stack-overflow"
@@ -136,11 +136,13 @@ export default {
         },
        
       ],
-      text1: ["Full Stack web Developer", "Dev Ops", "Data Science"],
+      text1: ["Full Stack web Developer", "Microsoft Dynamics 365", "APIs", "Docker & Kubernetes"],
       leftImage: "https://i.postimg.cc/VLChcHLg/test1.jpg",
       rightImage: "https://i.postimg.cc/6pwxbNLn/test2.jpg",
-      leftImage2: "https://i.imgur.com/SXBitjh.jpg",
-      rightImage2: "https://i.imgur.com/Dcz2PGx.jpg",
+      leftImage2: "https://i.postimg.cc/CLdpzR33/portfolio.jpg",
+      rightImage2: "https://i.postimg.cc/CLdpzR33/portfolio.jpg",
+      // leftImage2: "https://i.imgur.com/SXBitjh.jpg",
+      // rightImage2: "https://i.imgur.com/Dcz2PGx.jpg",
       sliderLine: 0,
       hSize: 0,
       sliderPosition: 0.5
